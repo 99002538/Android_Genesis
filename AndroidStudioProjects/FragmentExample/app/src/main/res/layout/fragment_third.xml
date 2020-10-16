@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    tools:context="com.lnt.fragmentexample.ThirdFragment"> <!--TextView and Button displayed in First Fragment -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="This is First Fragment"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/firstButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/background_dark"
+        android:text="First Fragment"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
